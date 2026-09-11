@@ -26,7 +26,7 @@
         "tuniu"
       ],
       "threshold": 0,
-      "query_time": "2026-09-11 05:35:43"
+      "query_time": "2026-09-11 12:08:11"
     },
     "results": [
       {
@@ -34,12 +34,12 @@
         "from": "LZO",
         "to": "BJS",
         "date": "2026-09-30",
-        "price": 890.0,
-        "airline": "东航",
-        "flight_no": "MU4803",
+        "price": 800.0,
+        "airline": "厦航",
+        "flight_no": "MF8420",
         "depart_time": "21:10",
         "arrive_time": "23:40",
-        "fetched_at": "2026-09-11 05:25:21"
+        "fetched_at": "2026-09-11 11:57:18"
       },
       {
         "platform": "tuniu",
@@ -51,7 +51,19 @@
         "flight_no": "MF8420",
         "depart_time": "21:10",
         "arrive_time": "23:40",
-        "fetched_at": "2026-09-11 05:25:35"
+        "fetched_at": "2026-09-11 11:57:36"
+      },
+      {
+        "platform": "tuniu",
+        "from": "LZO",
+        "to": "BJS",
+        "date": "2026-10-02",
+        "price": 400.0,
+        "airline": "厦航",
+        "flight_no": "MF8420",
+        "depart_time": "21:10",
+        "arrive_time": "23:40",
+        "fetched_at": "2026-09-11 11:57:53"
       },
       {
         "platform": "qunar",
@@ -63,7 +75,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-11 05:30:02"
+        "fetched_at": "2026-09-11 11:58:51"
       },
       {
         "platform": "qunar",
@@ -75,7 +87,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-11 05:30:16"
+        "fetched_at": "2026-09-11 11:59:08"
       },
       {
         "platform": "tongcheng",
@@ -87,7 +99,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-11 05:30:36"
+        "fetched_at": "2026-09-11 11:59:32"
       },
       {
         "platform": "tongcheng",
@@ -99,7 +111,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-11 05:30:58"
+        "fetched_at": "2026-09-11 11:59:51"
       },
       {
         "platform": "tongcheng",
@@ -111,7 +123,19 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-11 05:31:16"
+        "fetched_at": "2026-09-11 12:00:18"
+      },
+      {
+        "platform": "tuniu",
+        "from": "BJS",
+        "to": "LZO",
+        "date": "2026-10-06",
+        "price": 720.0,
+        "airline": "国航",
+        "flight_no": "CA1483",
+        "depart_time": "12:40",
+        "arrive_time": "15:50",
+        "fetched_at": "2026-09-11 12:07:26"
       },
       {
         "platform": "qunar",
@@ -123,7 +147,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-11 05:35:23"
+        "fetched_at": "2026-09-11 12:07:42"
       },
       {
         "platform": "tongcheng",
@@ -135,7 +159,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-11 05:35:43"
+        "fetched_at": "2026-09-11 12:08:11"
       }
     ],
     "summary": [
@@ -144,28 +168,29 @@
         "to": "LZO",
         "date": "2026-10-06",
         "per_platform": {
+          "tuniu": 720.0,
           "qunar": 720.0,
           "tongcheng": 720.0
         },
         "min_price": 720.0,
-        "best_platform": "qunar",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
+        "best_platform": "tuniu",
+        "best_flight": "国航CA1483",
+        "best_depart_time": "12:40",
+        "best_arrive_time": "15:50"
       },
       {
         "from": "LZO",
         "to": "BJS",
         "date": "2026-09-30",
         "per_platform": {
-          "tuniu": 890.0,
+          "tuniu": 800.0,
           "tongcheng": 810.0
         },
-        "min_price": 810.0,
-        "best_platform": "tongcheng",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
+        "min_price": 800.0,
+        "best_platform": "tuniu",
+        "best_flight": "厦航MF8420",
+        "best_depart_time": "21:10",
+        "best_arrive_time": "23:40"
       },
       {
         "from": "LZO",
@@ -187,27 +212,28 @@
         "to": "BJS",
         "date": "2026-10-02",
         "per_platform": {
+          "tuniu": 400.0,
           "qunar": 400.0,
           "tongcheng": 540.0
         },
         "min_price": 400.0,
-        "best_platform": "qunar",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
+        "best_platform": "tuniu",
+        "best_flight": "厦航MF8420",
+        "best_depart_time": "21:10",
+        "best_arrive_time": "23:40"
       }
     ],
     "trend": {
       "2026-09-30": {
         "tuniu": [
           {
-            "t": "2026-09-11 05:25:21",
-            "v": 890.0
+            "t": "2026-09-11 11:57:18",
+            "v": 800.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-11 05:30:36",
+            "t": "2026-09-11 11:59:32",
             "v": 810.0
           }
         ]
@@ -215,52 +241,64 @@
       "2026-10-01": {
         "tuniu": [
           {
-            "t": "2026-09-11 05:25:35",
+            "t": "2026-09-11 11:57:36",
             "v": 540.0
           }
         ],
         "qunar": [
           {
-            "t": "2026-09-11 05:30:02",
+            "t": "2026-09-11 11:58:51",
             "v": 540.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-11 05:30:58",
+            "t": "2026-09-11 11:59:51",
             "v": 540.0
           }
         ]
       },
       "2026-10-02": {
+        "tuniu": [
+          {
+            "t": "2026-09-11 11:57:53",
+            "v": 400.0
+          }
+        ],
         "qunar": [
           {
-            "t": "2026-09-11 05:30:16",
+            "t": "2026-09-11 11:59:08",
             "v": 400.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-11 05:31:16",
+            "t": "2026-09-11 12:00:18",
             "v": 540.0
           }
         ]
       },
       "2026-10-06": {
+        "tuniu": [
+          {
+            "t": "2026-09-11 12:07:26",
+            "v": 720.0
+          }
+        ],
         "qunar": [
           {
-            "t": "2026-09-11 05:35:23",
+            "t": "2026-09-11 12:07:42",
             "v": 720.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-11 05:35:43",
+            "t": "2026-09-11 12:08:11",
             "v": 720.0
           }
         ]
       }
     },
-    "generated_at": "2026-09-11T05:35:58.320912Z"
+    "generated_at": "2026-09-11T12:08:17.966666Z"
   }
 }
