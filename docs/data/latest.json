@@ -22,7 +22,7 @@
         "tuniu"
       ],
       "threshold": 0,
-      "query_time": "2026-09-26 17:01:16"
+      "query_time": "2026-09-26 21:54:10"
     },
     "results": [
       {
@@ -31,11 +31,11 @@
         "to": "BJS",
         "date": "2026-09-30",
         "price": 1090.0,
-        "airline": "国航",
-        "flight_no": "CA1484",
+        "airline": "深航",
+        "flight_no": "ZH1484",
         "depart_time": "17:05",
         "arrive_time": "20:00",
-        "fetched_at": "2026-09-26 16:51:13"
+        "fetched_at": "2026-09-26 21:43:26"
       },
       {
         "platform": "tuniu",
@@ -47,7 +47,19 @@
         "flight_no": "MF8420",
         "depart_time": "21:10",
         "arrive_time": "23:40",
-        "fetched_at": "2026-09-26 16:51:31"
+        "fetched_at": "2026-09-26 21:43:37"
+      },
+      {
+        "platform": "tuniu",
+        "from": "LZO",
+        "to": "BJS",
+        "date": "2026-10-02",
+        "price": 540.0,
+        "airline": "厦航",
+        "flight_no": "MF8420",
+        "depart_time": "21:10",
+        "arrive_time": "23:40",
+        "fetched_at": "2026-09-26 21:43:48"
       },
       {
         "platform": "qunar",
@@ -59,7 +71,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-26 16:55:32"
+        "fetched_at": "2026-09-26 21:44:40"
       },
       {
         "platform": "qunar",
@@ -71,7 +83,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-26 16:55:45"
+        "fetched_at": "2026-09-26 21:45:02"
       },
       {
         "platform": "tongcheng",
@@ -83,7 +95,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-26 16:56:07"
+        "fetched_at": "2026-09-26 21:45:29"
       },
       {
         "platform": "tongcheng",
@@ -95,7 +107,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-26 16:56:32"
+        "fetched_at": "2026-09-26 21:45:56"
       },
       {
         "platform": "tongcheng",
@@ -107,7 +119,19 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-26 16:56:52"
+        "fetched_at": "2026-09-26 21:46:22"
+      },
+      {
+        "platform": "tuniu",
+        "from": "BJS",
+        "to": "LZO",
+        "date": "2026-10-06",
+        "price": 1160.0,
+        "airline": "厦航",
+        "flight_no": "MF8419",
+        "depart_time": "17:25",
+        "arrive_time": "20:15",
+        "fetched_at": "2026-09-26 21:53:32"
       },
       {
         "platform": "qunar",
@@ -119,7 +143,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-26 17:00:52"
+        "fetched_at": "2026-09-26 21:53:47"
       },
       {
         "platform": "tongcheng",
@@ -131,7 +155,7 @@
         "flight_no": "",
         "depart_time": "",
         "arrive_time": "",
-        "fetched_at": "2026-09-26 17:01:16"
+        "fetched_at": "2026-09-26 21:54:10"
       }
     ],
     "summary": [
@@ -140,6 +164,7 @@
         "to": "LZO",
         "date": "2026-10-06",
         "per_platform": {
+          "tuniu": 1160.0,
           "qunar": 947.0,
           "tongcheng": 1160.0
         },
@@ -159,7 +184,7 @@
         },
         "min_price": 1090.0,
         "best_platform": "tuniu",
-        "best_flight": "国航CA1484",
+        "best_flight": "深航ZH1484",
         "best_depart_time": "17:05",
         "best_arrive_time": "20:00"
       },
@@ -183,27 +208,28 @@
         "to": "BJS",
         "date": "2026-10-02",
         "per_platform": {
+          "tuniu": 540.0,
           "qunar": 540.0,
           "tongcheng": 540.0
         },
         "min_price": 540.0,
-        "best_platform": "qunar",
-        "best_flight": "",
-        "best_depart_time": "",
-        "best_arrive_time": ""
+        "best_platform": "tuniu",
+        "best_flight": "厦航MF8420",
+        "best_depart_time": "21:10",
+        "best_arrive_time": "23:40"
       }
     ],
     "trend": {
       "2026-09-30": {
         "tuniu": [
           {
-            "t": "2026-09-26 16:51:13",
+            "t": "2026-09-26 21:43:26",
             "v": 1090.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-26 16:56:07",
+            "t": "2026-09-26 21:45:29",
             "v": 1090.0
           }
         ]
@@ -211,52 +237,64 @@
       "2026-10-01": {
         "tuniu": [
           {
-            "t": "2026-09-26 16:51:31",
+            "t": "2026-09-26 21:43:37",
             "v": 540.0
           }
         ],
         "qunar": [
           {
-            "t": "2026-09-26 16:55:32",
+            "t": "2026-09-26 21:44:40",
             "v": 540.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-26 16:56:32",
+            "t": "2026-09-26 21:45:56",
             "v": 540.0
           }
         ]
       },
       "2026-10-02": {
+        "tuniu": [
+          {
+            "t": "2026-09-26 21:43:48",
+            "v": 540.0
+          }
+        ],
         "qunar": [
           {
-            "t": "2026-09-26 16:55:45",
+            "t": "2026-09-26 21:45:02",
             "v": 540.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-26 16:56:52",
+            "t": "2026-09-26 21:46:22",
             "v": 540.0
           }
         ]
       },
       "2026-10-06": {
+        "tuniu": [
+          {
+            "t": "2026-09-26 21:53:32",
+            "v": 1160.0
+          }
+        ],
         "qunar": [
           {
-            "t": "2026-09-26 17:00:52",
+            "t": "2026-09-26 21:53:47",
             "v": 947.0
           }
         ],
         "tongcheng": [
           {
-            "t": "2026-09-26 17:01:16",
+            "t": "2026-09-26 21:54:10",
             "v": 1160.0
           }
         ]
       }
     },
-    "generated_at": "2026-09-26T17:01:30.434714Z"
+    "generated_at": "2026-09-26T21:54:25.463957Z"
   }
 }
